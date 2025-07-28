@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  font-family: 'Fira Code', monospace;
+  background-color: #1e1e1e;
+  overflow: auto;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  padding: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+main .left,
+main .right {
+  height: 100%;
+  flex-basis: 50%;
+  border-radius: 0.7rem;
+}
+
+main .left {
+  background-color: #000000;
+  position: relative;
+}
+
+.left .code,
+.code pre,
+.code pre code {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  border-radius: 0.7rem;
+  background-color: #0c0c0c;
+  color: #ffffff;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 1rem;
+  overflow: auto;
+  white-space: pre;
+}
+
+/* Review Button */
+main .left .review {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  background-color: #ffd166;
+  color: #000;
+  padding: 0.5rem 2rem;
+  font-weight: 500;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 0.7rem;
+}
+
+/* Review Output */
+main .right {
+  background-color: #343434;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  overflow: auto;
+  color: #f5f5f5;
+}
+
+main .right * {
+  color: #f5f5f5;
+}
+
+main .right .pass {
+  color: #6eff6e;
+}
+main .right .fail {
+  color: #ff6e6e;
+}
+main .right .info {
+  color: #ffd166; 
+}
