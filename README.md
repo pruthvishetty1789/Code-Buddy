@@ -9,7 +9,7 @@ CodeBuddy is a minimalist, dark-themed code editor interface built with React. I
 - 🧾 Scrollable output/review section
 - 🎨 Dark mode UI for comfortable coding
 - 🖱️ Responsive layout with Flexbox
-- 💡 Built entirely with React & CSS 
+- 💡 Built entirely with React 
 
 ## 🤖 Gemini API Integration
 
